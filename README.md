@@ -11,9 +11,9 @@ Task 4 – Fetch and Display Data from API
 Task 5 – CSS Grid Image Gallery
 
 Technologies Used:
-HTML5
-CSS3
-JavaScript
-Fetch API
-LocalStorage
+HTML5,
+CSS3,
+JavaScript,
+Fetch API,
+LocalStorage and
 CSS Grid
