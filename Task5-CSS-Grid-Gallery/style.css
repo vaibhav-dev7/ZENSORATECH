@@ -1,0 +1,56 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+background:#f4f4f4;
+padding:40px;
+text-align:center;
+}
+
+h1{
+margin-bottom:30px;
+}
+
+.gallery{
+
+display:grid;
+
+/* RESPONSIVE GRID */
+
+grid-template-columns:repeat(auto-fit, minmax(250px,1fr));
+
+gap:20px;
+
+max-width:1000px;
+margin:auto;
+
+}
+
+/* IMAGE STYLE */
+
+.gallery img{
+
+width:100%;
+height:250px;
+
+object-fit:cover;
+
+border-radius:8px;
+
+box-shadow:0 4px 10px rgba(0,0,0,0.2);
+
+transition:transform 0.3s ease;
+
+}
+
+/* HOVER EFFECT */
+
+.gallery img:hover{
+
+transform:scale(1.05);
+
+}
