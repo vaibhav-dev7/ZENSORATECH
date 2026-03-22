@@ -17,3 +17,9 @@ JavaScript,
 Fetch API,
 LocalStorage and
 CSS Grid
+
+## Author
+Vaibhav Tiwari
+
+## Internship Duration
+8 March 2026 – 8 April 2026
